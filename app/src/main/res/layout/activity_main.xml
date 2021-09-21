@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_ig"
+        android:layout_width="128dp"
+        android:layout_height="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/instagram_new_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_msg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/facebook_messenger_13158" />
+
+    <ImageView
+        android:id="@+id/img_feed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_love"
+        app:layout_constraintEnd_toStartOf="@+id/img_love"
+        app:layout_constraintTop_toTopOf="@+id/img_love"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/igcomponentplusfeed_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_love"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_msg"
+        app:layout_constraintEnd_toStartOf="@+id/img_msg"
+        app:layout_constraintTop_toTopOf="@+id/img_msg"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/black_heart_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_reels"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/instagram_reels" />
+
+    <ImageView
+        android:id="@+id/img_search"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_reels"
+        app:layout_constraintEnd_toStartOf="@+id/img_reels"
+        app:layout_constraintTop_toTopOf="@+id/img_reels"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/screenshot__1298__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_search"
+        app:layout_constraintEnd_toStartOf="@+id/img_search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_search"
+        app:srcCompat="@drawable/screenshot__1297__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_explore"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_reels"
+        app:layout_constraintStart_toEndOf="@+id/img_reels"
+        app:layout_constraintTop_toTopOf="@+id/img_reels"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/screenshot__1301__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_binar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_explore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_explore"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/screenshot__1300__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/img_profilebinar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_ig"
+        app:srcCompat="@drawable/screenshot__1300__removebg_preview" />
+
+    <TextView
+        android:id="@+id/tv_academybinar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="academybinar"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_profilebinar"
+        app:layout_constraintStart_toEndOf="@+id/img_profilebinar"
+        app:layout_constraintTop_toTopOf="@+id/img_profilebinar" />
+
+    <ImageView
+        android:id="@+id/img_berbinar"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2021_09_21_at_6_17_36_pm" />
+
+    <TextView
+        android:id="@+id/tv_teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="academybinar"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/img_home"
+        app:layout_constraintTop_toBottomOf="@+id/img_berbinar" />
+
+    <TextView
+        android:id="@+id/tv_teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BERBINAR"
+        android:textSize="24sp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_teks"
+        app:layout_constraintStart_toEndOf="@+id/tv_teks"
+        app:layout_constraintTop_toTopOf="@+id/tv_teks" />
+</androidx.constraintlayout.widget.ConstraintLayout>
